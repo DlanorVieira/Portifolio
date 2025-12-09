@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Bungee+Outline&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Palette+Mosaic&family=Rubik+Bubbles&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    color: bisque;
+}
+
+
+
+/*HEADER*/
+ .escopoHeader{
+    width: 90%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    border-bottom: 1px solid bisque;
+    display: flex;
+    border-radius: 2px;
+}
+.divTextPcp{
+    /* border: 1px solid purple; */
+    width: 25%;
+    margin-left: 3%;
+}
+.textPcp{
+    font-family: "Bungee Hairline", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    margin-left: 15px;
+}
+.textSecund{
+    font-family: "Bungee Hairline", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+.ulNav{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    width: 70%;
+    border: none;
+    margin-left: 5%;
+}
+.liNav{
+    margin-left: 12%;
+    border-bottom: 1px solid bisque;
+    padding: 1.5%;
+    border-radius: 2px;
+    font-family: "Bungee Hairline", sans-serif;
+}
+.liNav:hover{
+    background-color: bisque;
+    color: black;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(250, 247, 243);
+    cursor: pointer;
+    transition: 1s;
+} 
+
+/*SECTION SOBRE MIM*/
+.secionSobreMim{
+    margin-left: 4%;
+    display: flex;
+}
+.paragrafoSobreMim{
+    width: 40%;
+    margin-right: 28%;
+    font-family: "Newsreader", serif;
+    font-size: 20px;
+}
+.imgSectionPcp{
+    width: 300px;
+    border-radius: 10px;
+}
+
+
+@media (max-width:1220px){
+    .imgSectionPcp{
+        width: 300px;
+        height: 500px;
+        border-radius: 10px;
+    }
+}
+@media (max-width:1175px){
+    .paragrafoSobreMim{
+    width: 60%;
+    margin-right: 5%;
+    font-family: "Newsreader", serif;
+    font-size: 20px;
+    }
+}
+
+
+@media (max-width:870px){
+    .escopoHeader{
+        display: block;
+        text-align: center;
+    }
+    .divTextPcp{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .ulNav{
+        display: block;
+        margin-left: 12%;
+    }
+
+
+
+    .secionSobreMim{
+    margin-left: 4%;
+    display: block;
+    text-align: center;
+    }
+    .paragrafoSobreMim{
+    width: 100%;
+    margin-bottom: 5px;
+    }
+    .imgSectionPcp{
+    width: 300px;
+    border-radius: 10px;
+    }
+}
+
+
+
+/*FOOTER*/
+.footerPcp{
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid red; */
+    display: flex;
+}
+.ulFooter{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    width: 100%;
+    margin: 4%;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.liFooter{
+    color: rgb(238, 220, 187);
+    font-family: "Bungee Outline", sans-serif;
+    list-style: none;
+    margin-left: 1%;
+}
+.imgFooter{
+    width: 40px;
+    background-color: bisque;
+    border: 1px solid bisque;
+    border-radius: 40px;
+    margin-left: 13%;
+}
+a{
+    text-decoration: none;
+    color: rgb(238, 220, 187);
+}
