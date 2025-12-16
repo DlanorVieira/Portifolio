@@ -117,7 +117,9 @@ body {
         margin-left: 12%;
     }
 
-
+    .imgFooter{
+    margin-left: 1%;
+    }
 
     .secionSobreMim{
     margin-left: 4%;
@@ -165,7 +167,23 @@ body {
     border-radius: 40px;
     margin-left: 13%;
 }
-a{
+.link{
     text-decoration: none;
     color: rgb(238, 220, 187);
+}
+
+@media (max-width:1175px){
+    .imgFooter{
+    margin-left: 10%;
+}
+}
+@media (max-width: 870px){
+    .imgFooter{
+    margin-left: 5%;
+    }
+}
+@media (max-width: 720px){
+    .ulFooter{
+    display: block;
+    }
 }
